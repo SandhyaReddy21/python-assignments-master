@@ -3,7 +3,7 @@ while True:
     try:
         n = input('Enter a number : ')
         n = int(n)
-        n1 = str(n) + str(n)
+        n1 = str(n) + str(n) 
         n2 = str(n) + str(n) + str(n)
         compute = n + int(n1) + int(n2)
         print('n + n n + n n n = ' , n , '+' , n , n , '+' , n , n , n , '=' , compute)
